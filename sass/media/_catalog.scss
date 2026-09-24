@@ -87,4 +87,25 @@
       }
     }
   }
+  .catalog-text {
+    margin-top: 20px;
+    gap: 10px;
+    p {
+      font-size: 13px;
+    }
+    &__subtitle {
+      font-size: 16px;
+    }
+  }
+  .catalog-faq {
+    &__wrapper {
+      gap: 8px;
+    }
+    &__subtitle {
+      font-size: 15px;
+    }
+    .accordion-item_text {
+      line-height: 1.206;
+    }
+  }
 }
