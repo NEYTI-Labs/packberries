@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./scss/index.scss">
+    <title>Блог</title>
+</head>
+<body>
+{{> _header}}
+
+<main class="blog-main main">
+  <div class="container">
+    <div class="breadcrumbs">
+        <div class="breadcrumbs-container">
+            <div class="breadcrumbs-item">
+                <a href="/index.html" class="breadcrumbs-item-link">
+                    <span>Главная</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <section class="blog">
+        <div class="blog-head">
+        <div class="blog-intro">
+            <h1 class="blog-intro__title">Блог</h1>
+            <p class="blog-intro__text">
+            Всё об упаковке и оборудовании: обзоры, советы по выбору и полезные материалы для вашего производства.
+            </p>
+        </div>
+
+        <nav class="blog-filters" aria-label="Категории статей">
+            <ul class="blog-filters__list">
+                <li><a class="blog-filters__item is-active" href="#" aria-current="page">Все статьи</a></li>
+                <li><a class="blog-filters__item" href="#">Выбор оборудования</a></li>
+                <li><a class="blog-filters__item" href="#">Обзоры</a></li>
+                <li><a class="blog-filters__item" href="#">Советы и инструкции</a></li>
+                <li><a class="blog-filters__item" href="#">Новости компании</a></li>
+            </ul>
+            <button type="button" class="blog-filters__btn">
+                Сначала новые
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3 4.5L6 7.5L9 4.5" stroke-width="1.5" stroke-linecap="round" stroke="#C2025E" />
+                </svg>
+            </button>
+        </nav>
+        </div>
+
+        <div class="blog-list">
+            <div class="blog-grid">
+                <div class="blog-card">
+                    <a class="blog-card__image" href="#">
+                        <img src="/images/blog_card.png" alt="" >
+                    </a>
+                    <div class="blog-card__content">
+                        <time class="blog-card__date" datetime="2024-08-28">28 августа 2024</time>
+                        <a href="#" class="blog-card__title">Как выбрать вакуумный упаковщик для бизнеса</a>
+                        <p class="blog-card__text">
+                            Камерный или бескамерный? Разбираем отличия, основные характеристики и задачи, с которыми справится каждый тип оборудования.
+                        </p>
+                        <ul class="blog-card__tags">
+                            <li><a href="#`">#Выбор оборудования</a></li>
+                            <li><a href="#">#Обзоры</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <a class="blog-card__image" href="#">
+                        <img src="/images/blog_card.png" alt="" >
+                    </a>
+                    <div class="blog-card__content">
+                        <time class="blog-card__date" datetime="2024-08-28">28 августа 2024</time>
+                            <a href="#" class="blog-card__title">Запайщики пакетов: какой подойдёт вашему производству</a>
+                        <p class="blog-card__text">
+                            Сравниваем импульсные и конвейерные модели. Рассказываем, как материал и толщина пакета влияют на выбор запайщика.
+                        </p>
+                        <ul class="blog-card__tags">
+                            <li><a href="#">#Обзоры</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <a class="blog-card__image" href="#">
+                        <img src="/images/blog_card.png" alt="" >
+                    </a>
+                    <div class="blog-card__content">
+                        <time class="blog-card__date" datetime="2024-08-28">28 августа 2024</time>
+                            <a href="#" class="blog-card__title">Как выбрать вакуумный упаковщик для бизнеса</a>
+                        <p class="blog-card__text">
+                            Камерный или бескамерный? Разбираем отличия, основные характеристики и задачи, с которыми справится каждый тип оборудования.
+                        </p>
+                        <ul class="blog-card__tags">
+                            <li><a href="#`">#Выбор оборудования</a></li>
+                            <li><a href="#">#Обзоры</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <a class="blog-card__image" href="#">
+                        <img src="/images/blog_card.png" alt="" >
+                    </a>
+                    <div class="blog-card__content">
+                        <time class="blog-card__date" datetime="2024-08-28">28 августа 2024</time>
+                            <a href="#" class="blog-card__title">Как выбрать вакуумный упаковщик для бизнеса</a>
+                        <p class="blog-card__text">
+                            Камерный или бескамерный? Разбираем отличия, основные характеристики и задачи, с которыми справится каждый тип оборудования.
+                        </p>
+                        <ul class="blog-card__tags">
+                            <li><a href="#`">#Выбор оборудования</a></li>
+                            <li><a href="#">#Обзоры</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="blog-card">
+                    <a class="blog-card__image" href="#">
+                        <img src="/images/blog_card.png" alt="" >
+                    </a>
+                    <div class="blog-card__content">
+                        <time class="blog-card__date" datetime="2024-08-28">28 августа 2024</time>
+                            <a href="#" class="blog-card__title">Как выбрать вакуумный упаковщик для бизнеса</a>
+                        <p class="blog-card__text">
+                            Камерный или бескамерный? Разбираем отличия, основные характеристики и задачи, с которыми справится каждый тип оборудования.
+                        </p>
+                        <ul class="blog-card__tags">
+                            <li><a href="#`">#Выбор оборудования</a></li>
+                            <li><a href="#">#Обзоры</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <a class="blog-card__image" href="#">
+                        <img src="/images/blog_card.png" alt="" >
+                    </a>
+                    <div class="blog-card__content">
+                        <time class="blog-card__date" datetime="2024-08-28">28 августа 2024</time>
+                            <a href="#" class="blog-card__title">Как выбрать вакуумный упаковщик для бизнеса</a>
+                        <p class="blog-card__text">
+                            Камерный или бескамерный? Разбираем отличия, основные характеристики и задачи, с которыми справится каждый тип оборудования.
+                        </p>
+                        <ul class="blog-card__tags">
+                            <li><a href="#`">#Выбор оборудования</a></li>
+                            <li><a href="#">#Обзоры</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <a class="blog-card__image" href="#">
+                        <img src="/images/blog_card.png" alt="" >
+                    </a>
+                    <div class="blog-card__content">
+                        <time class="blog-card__date" datetime="2024-08-28">28 августа 2024</time>
+                            <a href="#" class="blog-card__title">Как выбрать вакуумный упаковщик для бизнеса</a>
+                        <p class="blog-card__text">
+                            Камерный или бескамерный? Разбираем отличия, основные характеристики и задачи, с которыми справится каждый тип оборудования.
+                        </p>
+                        <ul class="blog-card__tags">
+                            <li><a href="#`">#Выбор оборудования</a></li>
+                            <li><a href="#">#Обзоры</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <a class="blog-card__image" href="#">
+                        <img src="/images/blog_card.png" alt="" >
+                    </a>
+                    <div class="blog-card__content">
+                        <time class="blog-card__date" datetime="2024-08-28">28 августа 2024</time>
+                            <a href="#" class="blog-card__title">Как выбрать вакуумный упаковщик для бизнеса</a>
+                        <p class="blog-card__text">
+                            Камерный или бескамерный? Разбираем отличия, основные характеристики и задачи, с которыми справится каждый тип оборудования.
+                        </p>
+                        <ul class="blog-card__tags">
+                            <li><a href="#`">#Выбор оборудования</a></li>
+                            <li><a href="#">#Обзоры</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="blog-card">
+                    <a class="blog-card__image" href="#">
+                        <img src="/images/blog_card.png" alt="" >
+                    </a>
+                    <div class="blog-card__content">
+                        <time class="blog-card__date" datetime="2024-08-28">28 августа 2024</time>
+                            <a href="#" class="blog-card__title">Как выбрать вакуумный упаковщик для бизнеса</a>
+                        <p class="blog-card__text">
+                            Камерный или бескамерный? Разбираем отличия, основные характеристики и задачи, с которыми справится каждый тип оборудования.
+                        </p>
+                        <ul class="blog-card__tags">
+                            <li><a href="#`">#Выбор оборудования</a></li>
+                            <li><a href="#">#Обзоры</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <a class="blog-card__image" href="#">
+                        <img src="/images/blog_card.png" alt="" >
+                    </a>
+                    <div class="blog-card__content">
+                        <time class="blog-card__date" datetime="2024-08-28">28 августа 2024</time>
+                            <a href="#" class="blog-card__title">Как выбрать вакуумный упаковщик для бизнеса</a>
+                        <p class="blog-card__text">
+                            Камерный или бескамерный? Разбираем отличия, основные характеристики и задачи, с которыми справится каждый тип оборудования.
+                        </p>
+                        <ul class="blog-card__tags">
+                            <li><a href="#`">#Выбор оборудования</a></li>
+                            <li><a href="#">#Обзоры</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <a class="blog-card__image" href="#">
+                        <img src="/images/blog_card.png" alt="" >
+                    </a>
+                    <div class="blog-card__content">
+                        <time class="blog-card__date" datetime="2024-08-28">28 августа 2024</time>
+                            <a href="#" class="blog-card__title">Как выбрать вакуумный упаковщик для бизнеса</a>
+                        <p class="blog-card__text">
+                            Камерный или бескамерный? Разбираем отличия, основные характеристики и задачи, с которыми справится каждый тип оборудования.
+                        </p>
+                        <ul class="blog-card__tags">
+                            <li><a href="#`">#Выбор оборудования</a></li>
+                            <li><a href="#">#Обзоры</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <a class="blog-card__image" href="#">
+                        <img src="/images/blog_card.png" alt="" >
+                    </a>
+                    <div class="blog-card__content">
+                        <time class="blog-card__date" datetime="2024-08-28">28 августа 2024</time>
+                            <a href="#" class="blog-card__title">Как выбрать вакуумный упаковщик для бизнеса</a>
+                        <p class="blog-card__text">
+                            Камерный или бескамерный? Разбираем отличия, основные характеристики и задачи, с которыми справится каждый тип оборудования.
+                        </p>
+                        <ul class="blog-card__tags">
+                            <li><a href="#`">#Выбор оборудования</a></li>
+                            <li><a href="#">#Обзоры</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-pagination">
+                <span class="blog-pagination__info">Показано 12 из 36 статей</span>
+                <nav class="blog-pagination__nav">
+                    <a class="blog-pagination__item is-active" href="#">1</a>
+                    <a class="blog-pagination__item" href="#">2</a>
+                    <a class="blog-pagination__item" href="#">3</a>
+                    <a class="blog-pagination__next" href="#">
+                        Следующая
+                        <img src="/images/icons/okcent_next.svg" alt="">
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </section>
+    </div>
+</main>
+
+{{> _footer}}
+<script type="module" src="/main.js"></script>
+</body>
+</html>
