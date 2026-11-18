@@ -2,6 +2,9 @@
     display: flex;
     flex-direction: column;
     gap: 48px;
+    &__main {
+        overflow: hidden;
+    }
     p {
         font-size: 15px;
         line-height: 153%;
