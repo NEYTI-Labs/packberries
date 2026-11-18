@@ -1,0 +1,720 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./scss/index.scss">
+    <title>Статья</title>
+</head>
+<body>
+{{> _header}}
+
+<main class="article__main main">
+  <div class="container">
+    <div class="breadcrumbs">
+        <div class="breadcrumbs-container">
+            <div class="breadcrumbs-item">
+                <a href="/index.html" class="breadcrumbs-item-link">
+                    <span>Главная</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <section class="article">
+        <div class="article-head">
+            <h1 class="page-title">Как выбрать воздушную завесу для складских ворот</h1>
+            <p>Разбираем, как сохранить тепло в зоне погрузки, какие данные нужны для подбора и почему мощность — не единственный критерий. Памятка для владельцев складов и производственных помещений.</p>
+            <div class="article-head__meta">
+                <time class="article-head__data" datetime="2024-08-28">28 августа 2024</time>
+                <a href="#" class="article-tag">#Выбор оборудования</a>
+            </div>
+            <div class="article-banner">
+                <img src="/images/article/banner.png" alt="">
+            </div>
+        </div>
+
+        <div class="article-main">
+            <div class="article-content">
+                <div  class="article-content__sections">
+                    <h2 class="block-title">Зачем складу воздушная завеса</h2>
+                    <p>Во время погрузки тёплый воздух выходит через открытые ворота, а холодный поступает в помещение. Рядом с проёмом появляются сквозняки, сотрудникам становится некомфортно, а отопление работает с повышенной нагрузкой. Воздушная завеса создаёт направленный поток поперёк проёма и помогает уменьшить этот обмен.</p>
+                    <p>При этом завеса не заменяет систему отопления и не делает открытый склад герметичным. Результат зависит от размеров ворот, ветра, перепада давления и режима работы. Поэтому подбор начинают с обследования объекта, а не с поиска самой мощной модели.</p>
+                </div>
+                <div  class="article-content__sections">
+                    <h2 class="block-title">Какие данные собрать для подбора</h2>
+                    <p>Подготовьте размеры и фотографии проёма, план зоны погрузки и описание рабочего дня. Чем точнее исходные данные, тем проще сравнить решения и избежать переделок после монтажа.</p>
+                    <ul class="article-content__checklist">
+                        <li>
+                            <img src="/images/article/check.svg" alt="">
+                            <p><b>Размеры ворот.</b> Измерьте ширину и высоту в свету, расстояние до потолка и свободное место по бокам.</p>
+                        </li>
+                        <li>
+                            <img src="/images/article/check.svg" alt="">
+                            <p><b>Режим открывания.</b>Укажите, сколько раз за смену открываются ворота и как долго длится одна погрузка.</p>
+                        </li>
+                        <li>
+                            <img src="/images/article/check.svg" alt="">
+                            <p><b>Условия снаружи и внутри.</b>Зафиксируйте требуемую температуру, наличие тамбура и открытых проёмов напротив.</p>
+                        </li>
+                        <li>
+                            <img src="/images/article/check.svg" alt="">
+                            <p><b>Инженерные сети.</b> Уточните доступную электрическую мощность или параметры водяного теплоснабжения.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="article-cta">
+                    <div class="article-cta__icon">
+                        <img src="/images/article/cta.svg" alt="">
+                    </div>
+                    <div class="article-cta__text">
+                        <h2 class="block-title">Не уверены, с чего начать?</h2>
+                        <p>Отправьте размеры ворот и условия работы — поможем определить подходящее решение.</p>
+                    </div>
+                    <button class="btn" type="button">Получить подбор</button>
+                </div>
+                <div  class="article-content__sections">
+                    <h2 class="block-title">Как сравнивать оборудование</h2>
+                    <p>Сначала проверьте, перекрывает ли воздушный поток весь проём и допускает ли производитель установку на нужной высоте. Затем сравните тип нагрева, требования к подключению, управление и доступность обслуживания. Одинаковая тепловая мощность не означает одинаковую эффективность у ворот.</p>
+                    <p>Рассмотрим порядок проверки на примере <a class="article-content__link" href="#">«ВЗ-Пром 1500»</a>. Это условная модель для иллюстрации выбора: ниже показано, какую информацию стоит запросить перед покупкой.</p>
+
+                    <div class="article-product">
+                        <span class="article-product__img">
+                            <img src="/images/article/product.png" alt="">
+                        </span>
+                        <span class="article-product__info">
+                            <span class="article-product__type">Воздушная завеса · пример модели</span>
+                            <h3 class="block-title">Автоматическая горизонтальная машина</h3>
+                            <span class="article-product__desc">Характеристики и комплектация уточняются при подборе.</span>
+                        </span>
+                        <a href="#" class="article-btn">Перейти к товару</a>
+                    </div>
+
+                    <p>Для реальной модели запросите паспорт, схему монтажа и рекомендации по допустимой высоте установки. Сопоставьте их с вашим проёмом. Если поток не доходит до нижней зоны или остаются неперекрытые участки по краям, увеличение нагрева само по себе проблему не решит.</p>
+
+                    <div class="article-note">
+                        <h3 class="article-note__title">Важно: оценивайте систему целиком</h3>
+                        <p>Вытяжная вентиляция может создавать разрежение и затягивать наружный воздух внутрь. В таком случае сначала проверяют баланс притока и вытяжки, а уже затем корректируют решение для ворот.</p>
+                    </div>
+                </div>
+                <div class="article-banner">
+                    <img src="/images/article/banner2.png" alt="">
+                </div>
+                <div  class="article-content__sections">
+                    <h2 class="block-title">Монтаж и ввод в эксплуатацию</h2>
+                    <p>Завесу устанавливают по инструкции производителя, не перекрывая воздухозабор и выход потока. Конструкция ворот, направляющие и складируемые товары не должны мешать работе. Для обслуживания оставляют доступ к корпусу, фильтрам и соединениям, если они предусмотрены конструкцией.</p>
+                    <p>После подключения проверяют направление потока, работу управления и согласование с открыванием ворот. Испытание проводят в обычном рабочем режиме: с включённой вентиляцией и характерной длительностью погрузки. Электромонтаж и подключение к тепловой сети поручают квалифицированным специалистам.</p>
+                </div>
+                <div class="article-gallery">
+                    <div class="article-gallery__item">
+                        <img src="/images/article/banner2.png" alt="">
+                    </div>
+                    <div class="article-gallery__item article-gallery__item--video">
+                        <div class="article-gallery__image">
+                            <img src="/images/article/banner2.png" alt="">
+                        </div>
+                        <a class="article-gallery__link"
+                        href="https://www.youtube.com/watch?v=Y9Zw6xOGly0"
+                        data-fancybox="video-gallery"
+                        data-caption="Название видео">
+                            <span class="article-gallery__play">
+                                <svg width="31" height="35" viewBox="0 0 31 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M30.4505 16.4199C31.1302 16.8022 31.1302 17.7808 30.4505 18.1631L1.49026 34.4532C0.823657 34.8282 4.23987e-08 34.3465 7.6713e-08 33.5817L1.53844e-06 1.00135C1.57276e-06 0.236524 0.823659 -0.245189 1.49026 0.129776L30.4505 16.4199Z" fill="white" />
+                                </svg>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="article-gallery__item">
+                        <img src="/images/article/banner2.png" alt="">
+                    </div>
+                </div>
+                <div class="article-cta">
+                    <div class="article-cta__icon">
+                        <img src="/images/article/cta2.svg" alt="">
+                    </div>
+                    <div class="article-cta__text">
+                        <h2 class="block-title">Проверьте объект до покупки</h2>
+                        <p>Инженер оценит проём, подключение и условия монтажа. Дату и стоимость согласуем заранее.</p>
+                    </div>
+                    <button class="btn article-cta__btn" type="button">Заказать выезд инженера</button>
+                </div>
+                <div  class="article-content__sections">
+                    <h2 class="block-title">Что проверить перед заказом</h2>
+                    <p>Зафиксируйте в подборе размеры проёма, способ установки, тип нагрева и требования к питанию. Отдельно согласуйте автоматику, крепления, монтаж и пусконаладку: эти позиции могут не входить в базовую поставку. Сравнивайте полную стоимость решения, а не только цену оборудования.</p>
+                    <p>Хороший результат — это не просто тёплый поток у ворот, а стабильные условия для людей и процессов. Правильно подобранная завеса работает вместе с отоплением, вентиляцией и организацией погрузки. Если исходных данных недостаточно, начните с замеров и консультации.</p>
+                </div>
+                <div class="article-table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th scope="col">№</th>
+                                <th scope="col">Дата</th>
+                                <th scope="col">Статус</th>
+                                <th scope="col">Сумма</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>00000</td>
+                                <td>15.09.2026</td>
+                                <td>Завершен</td>
+                                <td>1 540 000 ₽</td>
+                            </tr>
+                            <tr>
+                                <td>00000</td>
+                                <td>15.09.2026</td>
+                                <td>Завершен</td>
+                                <td>540 000 ₽</td>
+                            </tr>
+                            <tr>
+                                <td>00000</td>
+                                <td>15.09.2026</td>
+                                <td>Завершен</td>
+                                <td>540 000 ₽</td>
+                            </tr>
+                            <tr>
+                                <td>00000</td>
+                                <td>15.09.2026</td>
+                                <td>Завершен</td>
+                                <td>1 540 000 ₽</td>
+                            </tr>
+                            <tr>
+                                <td>00000</td>
+                                <td>15.09.2026</td>
+                                <td>Завершен</td>
+                                <td>540 000 ₽</td>
+                            </tr>
+                            <tr>
+                                <td>00000</td>
+                                <td>15.09.2026</td>
+                                <td>Завершен</td>
+                                <td>540 000 ₽</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="article-cards swiper">
+                    <h2 class="block-title">Товары</h2>
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="card__content">
+                                    <div class="card__top">
+                                        <div class="card__top_heading">
+                                            <div class="card__top_heading-sale"></div>
+                                            <div class="card__top_heading-like like-trigger">
+                                                <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M11.6974 2.90047L12.046 2.53946C12.5304 2.05083 13.1069 1.66317 13.7422 1.3989C14.3793 1.1339 15.0627 0.998303 15.7528 1.00003L15.7577 1.00002C16.4477 0.998303 17.1312 1.1339 17.7683 1.3989C18.4054 1.6639 18.9834 2.05301 19.4686 2.5436C20.4461 3.53246 20.9961 4.86567 21 6.25601C21.0039 7.64498 20.4628 8.97995 19.493 9.97399L11.0032 18.4888L2.51287 9.97342C1.54313 8.98261 1 7.65126 1 6.26466C1 4.8784 1.54287 3.54735 2.51222 2.55654C3.49445 1.57628 4.8255 1.02567 6.21333 1.02567C7.60278 1.02567 8.93535 1.57759 9.91793 2.56002C9.91795 2.56004 9.91796 2.56006 9.91798 2.56008L10.2709 2.91297L10.9905 3.63262L11.6974 2.90047Z" stroke="black" stroke-width="2" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                        <a href="/product-show.html" class="card__top_image">
+                                            <img src="/images/product-card/card-img-1.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="card__bottom">
+                                        <div class="card__bottom_top">
+                                            <div class="card__star">
+                                                <a href="#" class="card__star_wrapper">
+                                                    <img src="/images/product-card/card-star.svg" alt="">
+                                                    <img src="/images/product-card/card-star.svg" alt="">
+                                                    <img src="/images/product-card/card-star.svg" alt="">
+                                                    <img src="/images/product-card/card-star.svg" alt="">
+                                                    <img src="/images/product-card/card-star-gray.svg" alt="">
+                                                    <span class="card__star_count">25</span>
+                                                </a>
+                                                <div class="card__status stock">
+                                                    В НАЛИЧИИ
+                                                </div>
+                                            </div>
+                                            <a href="/product-show.html" class="card__title">
+                                                Автоматическая горизонтальная  машина
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card__wrapper">
+                                    <div class="card__price">
+                                        <span class="card__price_new">494 929₽</span>
+                                        <div class="card__price_discount">
+                                            <span class="card__price_old">970 762₽</span>
+                                            <span class="card__price_badge">-30%</span>
+                                        </div>
+                                    </div>
+                                    <button class="card__button_row">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M21 4.00018H2V6.00018H4.3L7.58 15.0002C7.78631 15.5837 8.16807 16.0892 8.67294 16.4472C9.1778 16.8053 9.78106 16.9984 10.4 17.0002H19V15.0002H10.4C10.1945 15.0001 9.99399 14.9367 9.8258 14.8186C9.6576 14.7005 9.52987 14.5334 9.46 14.3402L9 13.0002H18.28C18.714 12.9996 19.1361 12.8578 19.4824 12.5962C19.8288 12.3346 20.0806 11.9675 20.2 11.5502L22 5.27018C22.0406 5.13886 22.0538 5.00057 22.0386 4.86395C22.0234 4.72733 21.9802 4.59531 21.9117 4.47613C21.8432 4.35695 21.7509 4.25317 21.6404 4.17128C21.53 4.08939 21.4039 4.03114 21.27 4.00018C21.1806 3.98562 21.0894 3.98562 21 4.00018ZM18.25 11.0002H8.25L6.43 6.00018H19.67L18.25 11.0002Z" fill="#C2025E"/>
+                                            <path d="M10.5 21C11.3284 21 12 20.3284 12 19.5C12 18.6716 11.3284 18 10.5 18C9.67157 18 9 18.6716 9 19.5C9 20.3284 9.67157 21 10.5 21Z" fill="#C2025E"/>
+                                            <path d="M16.5 21C17.3284 21 18 20.3284 18 19.5C18 18.6716 17.3284 18 16.5 18C15.6716 18 15 18.6716 15 19.5C15 20.3284 15.6716 21 16.5 21Z" fill="#C2025E"/>
+                                        </svg>
+                                    </button>
+                                    <div class="card__like like-trigger">
+                                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M11.6974 2.90047L12.046 2.53946C12.5304 2.05083 13.1069 1.66317 13.7422 1.3989C14.3793 1.1339 15.0627 0.998303 15.7528 1.00003L15.7577 1.00002C16.4477 0.998303 17.1312 1.1339 17.7683 1.3989C18.4054 1.6639 18.9834 2.05301 19.4686 2.5436C20.4461 3.53246 20.9961 4.86567 21 6.25601C21.0039 7.64498 20.4628 8.97995 19.493 9.97399L11.0032 18.4888L2.51287 9.97342C1.54313 8.98261 1 7.65126 1 6.26466C1 4.8784 1.54287 3.54735 2.51222 2.55654C3.49445 1.57628 4.8255 1.02567 6.21333 1.02567C7.60278 1.02567 8.93535 1.57759 9.91793 2.56002C9.91795 2.56004 9.91796 2.56006 9.91798 2.56008L10.2709 2.91297L10.9905 3.63262L11.6974 2.90047Z" stroke="black" stroke-width="2" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="card__content">
+                                    <div class="card__top">
+                                        <div class="card__top_heading">
+                                            <div class="card__top_heading-sale"></div>
+                                            <div class="card__top_heading-like like-trigger">
+                                                <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M11.6974 2.90047L12.046 2.53946C12.5304 2.05083 13.1069 1.66317 13.7422 1.3989C14.3793 1.1339 15.0627 0.998303 15.7528 1.00003L15.7577 1.00002C16.4477 0.998303 17.1312 1.1339 17.7683 1.3989C18.4054 1.6639 18.9834 2.05301 19.4686 2.5436C20.4461 3.53246 20.9961 4.86567 21 6.25601C21.0039 7.64498 20.4628 8.97995 19.493 9.97399L11.0032 18.4888L2.51287 9.97342C1.54313 8.98261 1 7.65126 1 6.26466C1 4.8784 1.54287 3.54735 2.51222 2.55654C3.49445 1.57628 4.8255 1.02567 6.21333 1.02567C7.60278 1.02567 8.93535 1.57759 9.91793 2.56002C9.91795 2.56004 9.91796 2.56006 9.91798 2.56008L10.2709 2.91297L10.9905 3.63262L11.6974 2.90047Z" stroke="black" stroke-width="2" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                        <a href="/product-show.html" class="card__top_image">
+                                            <img src="/images/product-card/card-img-1.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="card__bottom">
+                                        <div class="card__bottom_top">
+                                            <div class="card__star">
+                                                <a href="#" class="card__star_wrapper">
+                                                    <img src="/images/product-card/card-star.svg" alt="">
+                                                    <img src="/images/product-card/card-star.svg" alt="">
+                                                    <img src="/images/product-card/card-star.svg" alt="">
+                                                    <img src="/images/product-card/card-star.svg" alt="">
+                                                    <img src="/images/product-card/card-star-gray.svg" alt="">
+                                                    <span class="card__star_count">25</span>
+                                                </a>
+                                                <div class="card__status stock">
+                                                    В НАЛИЧИИ
+                                                </div>
+                                            </div>
+                                            <a href="/product-show.html" class="card__title">
+                                                Автоматическая горизонтальная  машина
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card__wrapper">
+                                    <div class="card__price">
+                                        <span class="card__price_new">494 929₽</span>
+                                        <div class="card__price_discount">
+                                            <span class="card__price_old">970 762₽</span>
+                                            <span class="card__price_badge">-30%</span>
+                                        </div>
+                                    </div>
+                                    <button class="card__button_row">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M21 4.00018H2V6.00018H4.3L7.58 15.0002C7.78631 15.5837 8.16807 16.0892 8.67294 16.4472C9.1778 16.8053 9.78106 16.9984 10.4 17.0002H19V15.0002H10.4C10.1945 15.0001 9.99399 14.9367 9.8258 14.8186C9.6576 14.7005 9.52987 14.5334 9.46 14.3402L9 13.0002H18.28C18.714 12.9996 19.1361 12.8578 19.4824 12.5962C19.8288 12.3346 20.0806 11.9675 20.2 11.5502L22 5.27018C22.0406 5.13886 22.0538 5.00057 22.0386 4.86395C22.0234 4.72733 21.9802 4.59531 21.9117 4.47613C21.8432 4.35695 21.7509 4.25317 21.6404 4.17128C21.53 4.08939 21.4039 4.03114 21.27 4.00018C21.1806 3.98562 21.0894 3.98562 21 4.00018ZM18.25 11.0002H8.25L6.43 6.00018H19.67L18.25 11.0002Z" fill="#C2025E"/>
+                                            <path d="M10.5 21C11.3284 21 12 20.3284 12 19.5C12 18.6716 11.3284 18 10.5 18C9.67157 18 9 18.6716 9 19.5C9 20.3284 9.67157 21 10.5 21Z" fill="#C2025E"/>
+                                            <path d="M16.5 21C17.3284 21 18 20.3284 18 19.5C18 18.6716 17.3284 18 16.5 18C15.6716 18 15 18.6716 15 19.5C15 20.3284 15.6716 21 16.5 21Z" fill="#C2025E"/>
+                                        </svg>
+                                    </button>
+                                    <div class="card__like like-trigger">
+                                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M11.6974 2.90047L12.046 2.53946C12.5304 2.05083 13.1069 1.66317 13.7422 1.3989C14.3793 1.1339 15.0627 0.998303 15.7528 1.00003L15.7577 1.00002C16.4477 0.998303 17.1312 1.1339 17.7683 1.3989C18.4054 1.6639 18.9834 2.05301 19.4686 2.5436C20.4461 3.53246 20.9961 4.86567 21 6.25601C21.0039 7.64498 20.4628 8.97995 19.493 9.97399L11.0032 18.4888L2.51287 9.97342C1.54313 8.98261 1 7.65126 1 6.26466C1 4.8784 1.54287 3.54735 2.51222 2.55654C3.49445 1.57628 4.8255 1.02567 6.21333 1.02567C7.60278 1.02567 8.93535 1.57759 9.91793 2.56002C9.91795 2.56004 9.91796 2.56006 9.91798 2.56008L10.2709 2.91297L10.9905 3.63262L11.6974 2.90047Z" stroke="black" stroke-width="2" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="card__content">
+                                    <div class="card__top">
+                                        <div class="card__top_heading">
+                                            <div class="card__top_heading-sale"></div>
+                                            <div class="card__top_heading-like like-trigger">
+                                                <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M11.6974 2.90047L12.046 2.53946C12.5304 2.05083 13.1069 1.66317 13.7422 1.3989C14.3793 1.1339 15.0627 0.998303 15.7528 1.00003L15.7577 1.00002C16.4477 0.998303 17.1312 1.1339 17.7683 1.3989C18.4054 1.6639 18.9834 2.05301 19.4686 2.5436C20.4461 3.53246 20.9961 4.86567 21 6.25601C21.0039 7.64498 20.4628 8.97995 19.493 9.97399L11.0032 18.4888L2.51287 9.97342C1.54313 8.98261 1 7.65126 1 6.26466C1 4.8784 1.54287 3.54735 2.51222 2.55654C3.49445 1.57628 4.8255 1.02567 6.21333 1.02567C7.60278 1.02567 8.93535 1.57759 9.91793 2.56002C9.91795 2.56004 9.91796 2.56006 9.91798 2.56008L10.2709 2.91297L10.9905 3.63262L11.6974 2.90047Z" stroke="black" stroke-width="2" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                        <a href="/product-show.html" class="card__top_image">
+                                            <img src="/images/product-card/card-img-1.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="card__bottom">
+                                        <div class="card__bottom_top">
+                                            <div class="card__star">
+                                                <a href="#" class="card__star_wrapper">
+                                                    <img src="/images/product-card/card-star.svg" alt="">
+                                                    <img src="/images/product-card/card-star.svg" alt="">
+                                                    <img src="/images/product-card/card-star.svg" alt="">
+                                                    <img src="/images/product-card/card-star.svg" alt="">
+                                                    <img src="/images/product-card/card-star-gray.svg" alt="">
+                                                    <span class="card__star_count">25</span>
+                                                </a>
+                                                <div class="card__status stock">
+                                                    В НАЛИЧИИ
+                                                </div>
+                                            </div>
+                                            <a href="/product-show.html" class="card__title">
+                                                Автоматическая горизонтальная  машина
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card__wrapper">
+                                    <div class="card__price">
+                                        <span class="card__price_new">494 929₽</span>
+                                        <div class="card__price_discount">
+                                            <span class="card__price_old">970 762₽</span>
+                                            <span class="card__price_badge">-30%</span>
+                                        </div>
+                                    </div>
+                                    <button class="card__button_row">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M21 4.00018H2V6.00018H4.3L7.58 15.0002C7.78631 15.5837 8.16807 16.0892 8.67294 16.4472C9.1778 16.8053 9.78106 16.9984 10.4 17.0002H19V15.0002H10.4C10.1945 15.0001 9.99399 14.9367 9.8258 14.8186C9.6576 14.7005 9.52987 14.5334 9.46 14.3402L9 13.0002H18.28C18.714 12.9996 19.1361 12.8578 19.4824 12.5962C19.8288 12.3346 20.0806 11.9675 20.2 11.5502L22 5.27018C22.0406 5.13886 22.0538 5.00057 22.0386 4.86395C22.0234 4.72733 21.9802 4.59531 21.9117 4.47613C21.8432 4.35695 21.7509 4.25317 21.6404 4.17128C21.53 4.08939 21.4039 4.03114 21.27 4.00018C21.1806 3.98562 21.0894 3.98562 21 4.00018ZM18.25 11.0002H8.25L6.43 6.00018H19.67L18.25 11.0002Z" fill="#C2025E"/>
+                                            <path d="M10.5 21C11.3284 21 12 20.3284 12 19.5C12 18.6716 11.3284 18 10.5 18C9.67157 18 9 18.6716 9 19.5C9 20.3284 9.67157 21 10.5 21Z" fill="#C2025E"/>
+                                            <path d="M16.5 21C17.3284 21 18 20.3284 18 19.5C18 18.6716 17.3284 18 16.5 18C15.6716 18 15 18.6716 15 19.5C15 20.3284 15.6716 21 16.5 21Z" fill="#C2025E"/>
+                                        </svg>
+                                    </button>
+                                    <div class="card__like like-trigger">
+                                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M11.6974 2.90047L12.046 2.53946C12.5304 2.05083 13.1069 1.66317 13.7422 1.3989C14.3793 1.1339 15.0627 0.998303 15.7528 1.00003L15.7577 1.00002C16.4477 0.998303 17.1312 1.1339 17.7683 1.3989C18.4054 1.6639 18.9834 2.05301 19.4686 2.5436C20.4461 3.53246 20.9961 4.86567 21 6.25601C21.0039 7.64498 20.4628 8.97995 19.493 9.97399L11.0032 18.4888L2.51287 9.97342C1.54313 8.98261 1 7.65126 1 6.26466C1 4.8784 1.54287 3.54735 2.51222 2.55654C3.49445 1.57628 4.8255 1.02567 6.21333 1.02567C7.60278 1.02567 8.93535 1.57759 9.91793 2.56002C9.91795 2.56004 9.91796 2.56006 9.91798 2.56008L10.2709 2.91297L10.9905 3.63262L11.6974 2.90047Z" stroke="black" stroke-width="2" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="card__content">
+                                    <div class="card__top">
+                                        <div class="card__top_heading">
+                                            <div class="card__top_heading-sale"></div>
+                                            <div class="card__top_heading-like like-trigger">
+                                                <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M11.6974 2.90047L12.046 2.53946C12.5304 2.05083 13.1069 1.66317 13.7422 1.3989C14.3793 1.1339 15.0627 0.998303 15.7528 1.00003L15.7577 1.00002C16.4477 0.998303 17.1312 1.1339 17.7683 1.3989C18.4054 1.6639 18.9834 2.05301 19.4686 2.5436C20.4461 3.53246 20.9961 4.86567 21 6.25601C21.0039 7.64498 20.4628 8.97995 19.493 9.97399L11.0032 18.4888L2.51287 9.97342C1.54313 8.98261 1 7.65126 1 6.26466C1 4.8784 1.54287 3.54735 2.51222 2.55654C3.49445 1.57628 4.8255 1.02567 6.21333 1.02567C7.60278 1.02567 8.93535 1.57759 9.91793 2.56002C9.91795 2.56004 9.91796 2.56006 9.91798 2.56008L10.2709 2.91297L10.9905 3.63262L11.6974 2.90047Z" stroke="black" stroke-width="2" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                        <a href="/product-show.html" class="card__top_image">
+                                            <img src="/images/product-card/card-img-1.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="card__bottom">
+                                        <div class="card__bottom_top">
+                                            <div class="card__star">
+                                                <a href="#" class="card__star_wrapper">
+                                                    <img src="/images/product-card/card-star.svg" alt="">
+                                                    <img src="/images/product-card/card-star.svg" alt="">
+                                                    <img src="/images/product-card/card-star.svg" alt="">
+                                                    <img src="/images/product-card/card-star.svg" alt="">
+                                                    <img src="/images/product-card/card-star-gray.svg" alt="">
+                                                    <span class="card__star_count">25</span>
+                                                </a>
+                                                <div class="card__status stock">
+                                                    В НАЛИЧИИ
+                                                </div>
+                                            </div>
+                                            <a href="/product-show.html" class="card__title">
+                                                Автоматическая горизонтальная  машина
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card__wrapper">
+                                    <div class="card__price">
+                                        <span class="card__price_new">494 929₽</span>
+                                        <div class="card__price_discount">
+                                            <span class="card__price_old">970 762₽</span>
+                                            <span class="card__price_badge">-30%</span>
+                                        </div>
+                                    </div>
+                                    <button class="card__button_row">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M21 4.00018H2V6.00018H4.3L7.58 15.0002C7.78631 15.5837 8.16807 16.0892 8.67294 16.4472C9.1778 16.8053 9.78106 16.9984 10.4 17.0002H19V15.0002H10.4C10.1945 15.0001 9.99399 14.9367 9.8258 14.8186C9.6576 14.7005 9.52987 14.5334 9.46 14.3402L9 13.0002H18.28C18.714 12.9996 19.1361 12.8578 19.4824 12.5962C19.8288 12.3346 20.0806 11.9675 20.2 11.5502L22 5.27018C22.0406 5.13886 22.0538 5.00057 22.0386 4.86395C22.0234 4.72733 21.9802 4.59531 21.9117 4.47613C21.8432 4.35695 21.7509 4.25317 21.6404 4.17128C21.53 4.08939 21.4039 4.03114 21.27 4.00018C21.1806 3.98562 21.0894 3.98562 21 4.00018ZM18.25 11.0002H8.25L6.43 6.00018H19.67L18.25 11.0002Z" fill="#C2025E"/>
+                                            <path d="M10.5 21C11.3284 21 12 20.3284 12 19.5C12 18.6716 11.3284 18 10.5 18C9.67157 18 9 18.6716 9 19.5C9 20.3284 9.67157 21 10.5 21Z" fill="#C2025E"/>
+                                            <path d="M16.5 21C17.3284 21 18 20.3284 18 19.5C18 18.6716 17.3284 18 16.5 18C15.6716 18 15 18.6716 15 19.5C15 20.3284 15.6716 21 16.5 21Z" fill="#C2025E"/>
+                                        </svg>
+                                    </button>
+                                    <div class="card__like like-trigger">
+                                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M11.6974 2.90047L12.046 2.53946C12.5304 2.05083 13.1069 1.66317 13.7422 1.3989C14.3793 1.1339 15.0627 0.998303 15.7528 1.00003L15.7577 1.00002C16.4477 0.998303 17.1312 1.1339 17.7683 1.3989C18.4054 1.6639 18.9834 2.05301 19.4686 2.5436C20.4461 3.53246 20.9961 4.86567 21 6.25601C21.0039 7.64498 20.4628 8.97995 19.493 9.97399L11.0032 18.4888L2.51287 9.97342C1.54313 8.98261 1 7.65126 1 6.26466C1 4.8784 1.54287 3.54735 2.51222 2.55654C3.49445 1.57628 4.8255 1.02567 6.21333 1.02567C7.60278 1.02567 8.93535 1.57759 9.91793 2.56002C9.91795 2.56004 9.91796 2.56006 9.91798 2.56008L10.2709 2.91297L10.9905 3.63262L11.6974 2.90047Z" stroke="black" stroke-width="2" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="card__content">
+                                    <div class="card__top">
+                                        <div class="card__top_heading">
+                                            <div class="card__top_heading-sale"></div>
+                                            <div class="card__top_heading-like like-trigger">
+                                                <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M11.6974 2.90047L12.046 2.53946C12.5304 2.05083 13.1069 1.66317 13.7422 1.3989C14.3793 1.1339 15.0627 0.998303 15.7528 1.00003L15.7577 1.00002C16.4477 0.998303 17.1312 1.1339 17.7683 1.3989C18.4054 1.6639 18.9834 2.05301 19.4686 2.5436C20.4461 3.53246 20.9961 4.86567 21 6.25601C21.0039 7.64498 20.4628 8.97995 19.493 9.97399L11.0032 18.4888L2.51287 9.97342C1.54313 8.98261 1 7.65126 1 6.26466C1 4.8784 1.54287 3.54735 2.51222 2.55654C3.49445 1.57628 4.8255 1.02567 6.21333 1.02567C7.60278 1.02567 8.93535 1.57759 9.91793 2.56002C9.91795 2.56004 9.91796 2.56006 9.91798 2.56008L10.2709 2.91297L10.9905 3.63262L11.6974 2.90047Z" stroke="black" stroke-width="2" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                        <a href="/product-show.html" class="card__top_image">
+                                            <img src="/images/product-card/card-img-1.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="card__bottom">
+                                        <div class="card__bottom_top">
+                                            <div class="card__star">
+                                                <a href="#" class="card__star_wrapper">
+                                                    <img src="/images/product-card/card-star.svg" alt="">
+                                                    <img src="/images/product-card/card-star.svg" alt="">
+                                                    <img src="/images/product-card/card-star.svg" alt="">
+                                                    <img src="/images/product-card/card-star.svg" alt="">
+                                                    <img src="/images/product-card/card-star-gray.svg" alt="">
+                                                    <span class="card__star_count">25</span>
+                                                </a>
+                                                <div class="card__status stock">
+                                                    В НАЛИЧИИ
+                                                </div>
+                                            </div>
+                                            <a href="/product-show.html" class="card__title">
+                                                Автоматическая горизонтальная  машина
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card__wrapper">
+                                    <div class="card__price">
+                                        <span class="card__price_new">494 929₽</span>
+                                        <div class="card__price_discount">
+                                            <span class="card__price_old">970 762₽</span>
+                                            <span class="card__price_badge">-30%</span>
+                                        </div>
+                                    </div>
+                                    <button class="card__button_row">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M21 4.00018H2V6.00018H4.3L7.58 15.0002C7.78631 15.5837 8.16807 16.0892 8.67294 16.4472C9.1778 16.8053 9.78106 16.9984 10.4 17.0002H19V15.0002H10.4C10.1945 15.0001 9.99399 14.9367 9.8258 14.8186C9.6576 14.7005 9.52987 14.5334 9.46 14.3402L9 13.0002H18.28C18.714 12.9996 19.1361 12.8578 19.4824 12.5962C19.8288 12.3346 20.0806 11.9675 20.2 11.5502L22 5.27018C22.0406 5.13886 22.0538 5.00057 22.0386 4.86395C22.0234 4.72733 21.9802 4.59531 21.9117 4.47613C21.8432 4.35695 21.7509 4.25317 21.6404 4.17128C21.53 4.08939 21.4039 4.03114 21.27 4.00018C21.1806 3.98562 21.0894 3.98562 21 4.00018ZM18.25 11.0002H8.25L6.43 6.00018H19.67L18.25 11.0002Z" fill="#C2025E"/>
+                                            <path d="M10.5 21C11.3284 21 12 20.3284 12 19.5C12 18.6716 11.3284 18 10.5 18C9.67157 18 9 18.6716 9 19.5C9 20.3284 9.67157 21 10.5 21Z" fill="#C2025E"/>
+                                            <path d="M16.5 21C17.3284 21 18 20.3284 18 19.5C18 18.6716 17.3284 18 16.5 18C15.6716 18 15 18.6716 15 19.5C15 20.3284 15.6716 21 16.5 21Z" fill="#C2025E"/>
+                                        </svg>
+                                    </button>
+                                    <div class="card__like like-trigger">
+                                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M11.6974 2.90047L12.046 2.53946C12.5304 2.05083 13.1069 1.66317 13.7422 1.3989C14.3793 1.1339 15.0627 0.998303 15.7528 1.00003L15.7577 1.00002C16.4477 0.998303 17.1312 1.1339 17.7683 1.3989C18.4054 1.6639 18.9834 2.05301 19.4686 2.5436C20.4461 3.53246 20.9961 4.86567 21 6.25601C21.0039 7.64498 20.4628 8.97995 19.493 9.97399L11.0032 18.4888L2.51287 9.97342C1.54313 8.98261 1 7.65126 1 6.26466C1 4.8784 1.54287 3.54735 2.51222 2.55654C3.49445 1.57628 4.8255 1.02567 6.21333 1.02567C7.60278 1.02567 8.93535 1.57759 9.91793 2.56002C9.91795 2.56004 9.91796 2.56006 9.91798 2.56008L10.2709 2.91297L10.9905 3.63262L11.6974 2.90047Z" stroke="black" stroke-width="2" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="card__content">
+                                    <div class="card__top">
+                                        <div class="card__top_heading">
+                                            <div class="card__top_heading-sale"></div>
+                                            <div class="card__top_heading-like like-trigger">
+                                                <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M11.6974 2.90047L12.046 2.53946C12.5304 2.05083 13.1069 1.66317 13.7422 1.3989C14.3793 1.1339 15.0627 0.998303 15.7528 1.00003L15.7577 1.00002C16.4477 0.998303 17.1312 1.1339 17.7683 1.3989C18.4054 1.6639 18.9834 2.05301 19.4686 2.5436C20.4461 3.53246 20.9961 4.86567 21 6.25601C21.0039 7.64498 20.4628 8.97995 19.493 9.97399L11.0032 18.4888L2.51287 9.97342C1.54313 8.98261 1 7.65126 1 6.26466C1 4.8784 1.54287 3.54735 2.51222 2.55654C3.49445 1.57628 4.8255 1.02567 6.21333 1.02567C7.60278 1.02567 8.93535 1.57759 9.91793 2.56002C9.91795 2.56004 9.91796 2.56006 9.91798 2.56008L10.2709 2.91297L10.9905 3.63262L11.6974 2.90047Z" stroke="black" stroke-width="2" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                        <a href="/product-show.html" class="card__top_image">
+                                            <img src="/images/product-card/card-img-1.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="card__bottom">
+                                        <div class="card__bottom_top">
+                                            <div class="card__star">
+                                                <a href="#" class="card__star_wrapper">
+                                                    <img src="/images/product-card/card-star.svg" alt="">
+                                                    <img src="/images/product-card/card-star.svg" alt="">
+                                                    <img src="/images/product-card/card-star.svg" alt="">
+                                                    <img src="/images/product-card/card-star.svg" alt="">
+                                                    <img src="/images/product-card/card-star-gray.svg" alt="">
+                                                    <span class="card__star_count">25</span>
+                                                </a>
+                                                <div class="card__status stock">
+                                                    В НАЛИЧИИ
+                                                </div>
+                                            </div>
+                                            <a href="/product-show.html" class="card__title">
+                                                Автоматическая горизонтальная  машина
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card__wrapper">
+                                    <div class="card__price">
+                                        <span class="card__price_new">494 929₽</span>
+                                        <div class="card__price_discount">
+                                            <span class="card__price_old">970 762₽</span>
+                                            <span class="card__price_badge">-30%</span>
+                                        </div>
+                                    </div>
+                                    <button class="card__button_row">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M21 4.00018H2V6.00018H4.3L7.58 15.0002C7.78631 15.5837 8.16807 16.0892 8.67294 16.4472C9.1778 16.8053 9.78106 16.9984 10.4 17.0002H19V15.0002H10.4C10.1945 15.0001 9.99399 14.9367 9.8258 14.8186C9.6576 14.7005 9.52987 14.5334 9.46 14.3402L9 13.0002H18.28C18.714 12.9996 19.1361 12.8578 19.4824 12.5962C19.8288 12.3346 20.0806 11.9675 20.2 11.5502L22 5.27018C22.0406 5.13886 22.0538 5.00057 22.0386 4.86395C22.0234 4.72733 21.9802 4.59531 21.9117 4.47613C21.8432 4.35695 21.7509 4.25317 21.6404 4.17128C21.53 4.08939 21.4039 4.03114 21.27 4.00018C21.1806 3.98562 21.0894 3.98562 21 4.00018ZM18.25 11.0002H8.25L6.43 6.00018H19.67L18.25 11.0002Z" fill="#C2025E"/>
+                                            <path d="M10.5 21C11.3284 21 12 20.3284 12 19.5C12 18.6716 11.3284 18 10.5 18C9.67157 18 9 18.6716 9 19.5C9 20.3284 9.67157 21 10.5 21Z" fill="#C2025E"/>
+                                            <path d="M16.5 21C17.3284 21 18 20.3284 18 19.5C18 18.6716 17.3284 18 16.5 18C15.6716 18 15 18.6716 15 19.5C15 20.3284 15.6716 21 16.5 21Z" fill="#C2025E"/>
+                                        </svg>
+                                    </button>
+                                    <div class="card__like like-trigger">
+                                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M11.6974 2.90047L12.046 2.53946C12.5304 2.05083 13.1069 1.66317 13.7422 1.3989C14.3793 1.1339 15.0627 0.998303 15.7528 1.00003L15.7577 1.00002C16.4477 0.998303 17.1312 1.1339 17.7683 1.3989C18.4054 1.6639 18.9834 2.05301 19.4686 2.5436C20.4461 3.53246 20.9961 4.86567 21 6.25601C21.0039 7.64498 20.4628 8.97995 19.493 9.97399L11.0032 18.4888L2.51287 9.97342C1.54313 8.98261 1 7.65126 1 6.26466C1 4.8784 1.54287 3.54735 2.51222 2.55654C3.49445 1.57628 4.8255 1.02567 6.21333 1.02567C7.60278 1.02567 8.93535 1.57759 9.91793 2.56002C9.91795 2.56004 9.91796 2.56006 9.91798 2.56008L10.2709 2.91297L10.9905 3.63262L11.6974 2.90047Z" stroke="black" stroke-width="2" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="article-pagination"></div>
+                </div>
+                <div class="article-cta">
+                    <div class="article-cta__icon">
+                        <img src="/images/article/cta3.svg" alt="">
+                    </div>
+                    <div class="article-cta__text">
+                        <h2 class="block-title">Всё для подготовки заявки — в одном списке</h2>
+                        <p>Размеры, фотографии, инженерные сети и вопросы поставщику. Сохраните перед подбором.</p>
+                    </div>
+                    <a class="btn article-cta__btn" href="/images/article/banner.png" download="/images/article/banner.png">
+                        Скачать чек-лист
+                    </a>
+                </div>
+                <div class="article-share">
+                    <h2 class="block-title">Поделиться статьёй</h2>
+                    <button
+                        class="article-share__button"
+                        type="button">
+                        <img src="/images/article/share.svg" alt="">
+                    </button>
+                </div>
+            </div>
+            <div class="article-aside">
+                <nav class="article-nav">
+                    <h2 class="block-title">В этой статье</h2>
+                    <ol>
+                        <li>
+                            <a class="is-active" href="#">
+                                <span class="article-nav__num">01</span>
+                                <span class="article-nav__text">Зачем складу воздушная завеса</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="article-nav__num">02</span>
+                                <span class="article-nav__text">Какие данные собрать для подбора</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="article-nav__num">03</span>
+                                <span class="article-nav__text">Как сравнивать оборудование</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="article-nav__num">04</span>
+                                <span class="article-nav__text">Монтаж и ввод в эксплуатацию</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="article-nav__num">05</span>
+                                <span class="article-nav__text">Что проверить перед заказом</span>
+                            </a>
+                        </li>
+                    </ol>
+                </nav>
+                <div class="article-feedback">
+                    <img src="/images/article/feedback.svg" alt="">
+                    <h2 class="block-title">Есть вопрос по оборудованию?</h2>
+                    <p>Поможем разобраться с подбором и подключением под задачи вашего объекта.</p>
+                    <span>8 (800) 505-32-20</span>
+                    <button class="article-btn">Задать вопрос</button>
+                </div>
+            </div>
+        </div>
+        <div class="article-bottom">
+            <div class="article-bottom__head">
+                <h2 class="article-bottom__title">Читайте также</h2>
+                <a href="#">
+                    Все статьи блога
+                    <img src="/images/article/link.svg" alt="">
+                </a>
+            </div>
+            <div class="article-bottom__blog swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="blog-card">
+                            <a class="blog-card__image" href="#">
+                                <img src="/images/blog_card.png" alt="" >
+                            </a>
+                            <div class="blog-card__content">
+                                <time class="blog-card__date" datetime="2024-08-28">28 августа 2024</time>
+                                    <a href="#" class="blog-card__title">Как выбрать вакуумный упаковщик для бизнеса</a>
+                                <p class="blog-card__text">
+                                    Камерный или бескамерный? Разбираем отличия, основные характеристики и задачи, с которыми справится каждый тип оборудования.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="blog-card">
+                            <a class="blog-card__image" href="#">
+                                <img src="/images/blog_card.png" alt="" >
+                            </a>
+                            <div class="blog-card__content">
+                                <time class="blog-card__date" datetime="2024-08-28">28 августа 2024</time>
+                                    <a href="#" class="blog-card__title">Как выбрать вакуумный упаковщик для бизнеса</a>
+                                <p class="blog-card__text">
+                                    Камерный или бескамерный? Разбираем отличия, основные характеристики и задачи, с которыми справится каждый тип оборудования.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="blog-card">
+                            <a class="blog-card__image" href="#">
+                                <img src="/images/blog_card.png" alt="" >
+                            </a>
+                            <div class="blog-card__content">
+                                <time class="blog-card__date" datetime="2024-08-28">28 августа 2024</time>
+                                    <a href="#" class="blog-card__title">Как выбрать вакуумный упаковщик для бизнеса</a>
+                                <p class="blog-card__text">
+                                    Камерный или бескамерный? Разбираем отличия, основные характеристики и задачи, с которыми справится каждый тип оборудования.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="blog-card">
+                            <a class="blog-card__image" href="#">
+                                <img src="/images/blog_card.png" alt="" >
+                            </a>
+                            <div class="blog-card__content">
+                                <time class="blog-card__date" datetime="2024-08-28">28 августа 2024</time>
+                                    <a href="#" class="blog-card__title">Как выбрать вакуумный упаковщик для бизнеса</a>
+                                <p class="blog-card__text">
+                                    Камерный или бескамерный? Разбираем отличия, основные характеристики и задачи, с которыми справится каждый тип оборудования.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="blog-card">
+                            <a class="blog-card__image" href="#">
+                                <img src="/images/blog_card.png" alt="" >
+                            </a>
+                            <div class="blog-card__content">
+                                <time class="blog-card__date" datetime="2024-08-28">28 августа 2024</time>
+                                    <a href="#" class="blog-card__title">Как выбрать вакуумный упаковщик для бизнеса</a>
+                                <p class="blog-card__text">
+                                    Камерный или бескамерный? Разбираем отличия, основные характеристики и задачи, с которыми справится каждый тип оборудования.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="article-pagination"></div>
+            </div>
+        </div>
+    </section>
+    </div>
+</main>
+
+{{> _footer}}
+<script type="module" src="/main.js"></script>
+<script type="module" src="./article-script.js"></script>
+</body>
+</html>

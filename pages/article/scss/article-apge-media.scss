@@ -1,0 +1,210 @@
+@media screen and (max-width:1250px) {
+    .article {
+        &-main {
+            flex-direction: column;
+        }
+        &-aside {
+            display: contents;
+        }
+        &-nav {
+            order: -1;     
+        }
+        &-content {
+            order: 0;
+        }
+        &-feedback {
+            order: 1;   
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    .article {
+        gap: 32px;
+        p {
+            font-size: 14px;
+        }
+        &-head {
+            margin-top: 20px;
+            &__meta {
+                gap: 12px;
+            }
+            &__data {
+                font-size: 12px;
+            }
+        }
+        &-banner {
+            img {
+                min-height: 190px;
+            }
+        }
+        &-tag {
+            font-size: 12px;
+        }
+        &-main {
+            gap: 32px;
+        }
+        &-content {
+            &__checklist {
+                gap: 16px;
+                li {
+                    align-items: flex-start;
+                }
+            }
+        }
+        &-cta {
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 16px;
+            &__text {
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+                p{
+                    line-height: 1.5;
+                    font-size: 14px;
+                }
+            }
+            .btn {
+                width: 100%;
+                padding: 11.5px 22px;
+                font-size: 14px;
+            }
+        }
+        &-product {
+            flex-direction: column;
+            &__img {
+                width: 100%;
+                padding: 49.09px;
+                img {
+                    max-width: 156px;
+                    max-height: 189px;
+                }
+            }
+            .block-title {
+                margin-top: 0;
+            }
+            &__type {
+                font-size: 12px;
+            }
+            &__desc {
+                line-height: 1.41;
+            }
+            .article-btn {
+                width: 100%;
+            }
+        }
+        &-btn {
+            padding: 11.2px 22px;
+            font-size: 14px;
+        }
+        &-note {
+            gap: 8px;
+            padding: 16px;
+            background:  #f6f4f5;
+            &__title {
+                margin-top: 0;
+                font-size: 14px;
+            }
+            p {
+                line-height: 1.5;
+            }
+        }
+        &-table {
+            table {
+                font-size: 12px;
+            }
+            th,
+            td {
+                line-height: 1.33;
+                padding: 12px 6px;
+            }
+
+            th {
+                padding: 8px 6px;
+            }
+            td {
+                &:last-child {
+                    padding: 12px 6px;
+                }
+            }
+        }
+        &-cards {
+            .card__top_image {
+                padding: 23px;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .card__title {
+                min-height: 51px;
+            }
+            .card__wrapper {
+                .card__price {
+                    display: flex;
+                }
+            }
+            .card__price_old {
+                font-size: 14px;
+            }
+            .card__price_new {
+                font-size: 18px;
+            }
+            .block-title {
+                margin-bottom: 24px;
+            }
+        }
+        &-share {
+            justify-content: space-between;
+        }
+        &-nav {
+            padding: 16px;
+            ol {
+                gap: 12px;
+            }
+            &__text {
+                font-size: 14px;
+            }
+        }
+        &-feedback {
+            padding: 16px;
+            gap: 8px;
+            img, p, span{
+                margin-bottom: 8px;
+            }
+            p {
+                line-height: 1.5;
+            }
+            .article-btn {
+                line-height: 1.12;
+            }
+        }
+        &-bottom {
+            &__title {
+                font-size: 16px;
+            }
+            .blog-card__title {
+                line-height: 1.2;
+            }
+            .blog-card__date {
+                line-height: 1.23;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:480px) {
+    .article {
+        &-gallery {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+
+            &__item{
+                &:last-child {
+                    grid-column: 1 / -1;
+                }
+            }
+        }
+    }
+}

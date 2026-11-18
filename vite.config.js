@@ -20,6 +20,7 @@ export default defineConfig({
                 error: resolve(__dirname, 'pages/error/error-page.html'),
                 catalogView: resolve(__dirname, 'pages/catalogView/catalogView-page.html'),
                 blog: resolve(__dirname, 'pages/blog/blog-page.html'),
+                article: resolve(__dirname, 'pages/article/article-page.html'),
             },
             output: {
                 entryFileNames: 'assets/[name].js',

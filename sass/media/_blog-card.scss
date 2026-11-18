@@ -1,0 +1,24 @@
+@media screen and (max-width:768px)  {
+    .blog-card {
+        &__content {
+            line-height: 1.32;
+        }
+        &__title {
+            font-size: 15px;
+        }
+        &__text {
+            font-size: 14px;
+        }
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .blog-card {
+        &__image {
+            min-height: 190px;
+            img {
+                object-fit: cover;
+            }
+        }
+    }
+}
