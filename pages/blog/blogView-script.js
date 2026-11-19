@@ -1,13 +1,14 @@
 import Swiper from 'swiper/bundle';
 import 'swiper/css/bundle';
 
-new Swiper('.article-cards', {
+document.addEventListener('DOMContentLoaded', () => {
+new Swiper('.blogView-cards', {
     loop: true,
     slidesPerView: 1.4,
     spaceBetween: 15,
     grabCursor: true,
     pagination: {
-        el: '.article-pagination',
+        el: '.blogView-pagination',
         type: 'bullets',
         clickable: true,
     },
@@ -18,13 +19,13 @@ new Swiper('.article-cards', {
     },
 });
 
-new Swiper('.article-bottom__blog', {
+new Swiper('.blogView-bottom__blog', {
     loop: true,
     slidesPerView: 1.3,
     spaceBetween: 15,
     grabCursor: true,
     pagination: {
-        el: '.article-pagination',
+        el: '.blogView-pagination',
         type: 'bullets',
         clickable: true,
     },
@@ -33,4 +34,5 @@ new Swiper('.article-bottom__blog', {
         768: { slidesPerView: 3, spaceBetween: 15 },
         992: { slidesPerView: 4, spaceBetween: 15 },
     },
+});
 });

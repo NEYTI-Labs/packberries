@@ -52,8 +52,25 @@
             }
 
             &__btn {
-                padding: 12px 0;
+                font-size: 14px;
+                line-height: 1.28;
+                padding: 11px 16px;
                 align-self: flex-start;
+            }
+        }
+        &-sort {
+            &__wrap { 
+                width: max-content;
+            }
+            .blog-filters__btn {
+                width: auto;
+                justify-content: flex-start;
+            }
+            &.is-open {
+                right: auto;
+            }
+            &__option {
+                font-size: 14px;
             }
         }
         &-list {

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./scss/index.scss">
+    <link rel="stylesheet" href="./scss/blog/index.scss">
     <title>Блог</title>
 </head>
 <body>
@@ -38,12 +38,22 @@
                 <li><a class="blog-filters__item" href="#">Советы и инструкции</a></li>
                 <li><a class="blog-filters__item" href="#">Новости компании</a></li>
             </ul>
-            <button type="button" class="blog-filters__btn">
-                Сначала новые
-                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M3 4.5L6 7.5L9 4.5" stroke-width="1.5" stroke-linecap="round" stroke="#C2025E" />
-                </svg>
-            </button>
+            <div class="blog-sort__wrap">
+                <div class="blog-sort" data-sort>
+                    <button type="button" class="blog-filters__btn" aria-expanded="false">
+                        <span class="blog-sort__current">Сначала новые</span>
+                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3 4.5L6 7.5L9 4.5" stroke-width="1.5" stroke-linecap="round" stroke="#C2025E" />
+                        </svg>
+                    </button>
+
+                    <ul class="blog-sort__list" hidden>
+                        <li hidden><button type="button" class="blog-sort__option" data-value="new">Сначала новые</button></li>
+                        <li><button type="button" class="blog-sort__option" data-value="popular">Сначала популярные</button></li>
+                        <li><button type="button" class="blog-sort__option" data-value="old">Сначала старые</button></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
         </div>
 
@@ -262,5 +272,6 @@
 
 {{> _footer}}
 <script type="module" src="/main.js"></script>
+<script type="module" src="./blog-script.js"></script>
 </body>
 </html>

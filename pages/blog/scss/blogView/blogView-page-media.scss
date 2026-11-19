@@ -1,5 +1,5 @@
 @media screen and (max-width:1250px) {
-    .article {
+    .blogView {
         &-main {
             flex-direction: column;
         }
@@ -19,7 +19,7 @@
 }
 
 @media screen and (max-width:768px) {
-    .article {
+    .blogView {
         gap: 32px;
         p {
             font-size: 14px;
@@ -90,7 +90,7 @@
             &__desc {
                 line-height: 1.41;
             }
-            .article-btn {
+            .blogView-btn {
                 width: 100%;
             }
         }
@@ -176,7 +176,7 @@
             p {
                 line-height: 1.5;
             }
-            .article-btn {
+            .blogView-btn {
                 line-height: 1.12;
             }
         }
@@ -191,6 +191,23 @@
                 line-height: 1.23;
             }
         }
+        &-pagination {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            margin-top: 24px;
+            .swiper-pagination-bullet {
+                width: 6px;
+                height: 6px;
+                background:  #e8e3e6;
+                margin: 0;
+                opacity: 1;
+                &-active {
+                background: #C2025E;
+                }
+            }
+        }
         .swiper {
             overflow: visible;
         }
@@ -198,7 +215,7 @@
 }
 
 @media screen and (max-width:480px) {
-    .article {
+    .blogView {
         &-gallery {
             grid-template-columns: repeat(2, 1fr);
             gap: 10px;
