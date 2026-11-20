@@ -263,13 +263,21 @@
         }
         .card__top_image {
             position: relative;
-            padding: 30.5px 45.75px;
+            padding: 30.5px 45.75px;          
             border-radius: 10px;
             background: #f6f4f5;
-            img {
-                max-width: 143px;
-                max-height: 174px;
+            img {  
+                height: 174px;
             }
+        }
+        .card__star {
+            justify-content: space-between;
+        }
+        .card__status  {
+            line-height: 1.1;
+        }
+        .card__title {
+            min-height: 57px;
         }
         .card__price {
             align-items: center;

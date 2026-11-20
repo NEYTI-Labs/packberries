@@ -1,4 +1,4 @@
-@media screen and (max-width:1250px) {
+@media screen and (max-width:1350px) {
     .blogView {
         &-main {
             flex-direction: column;
@@ -14,6 +14,9 @@
         }
         &-feedback {
             order: 1;   
+        }
+        &-cards .card__top_image img {
+            width: auto;
         }
     }
 }
@@ -129,18 +132,17 @@
         }
         &-cards {
             .card__top_image {
-                padding: 23px;
-                img {
-                    width: 100%;
-                    height: 100%;
-                }
+                padding: 23px 40.25px;
             }
             .card__title {
+                font-size: 14px;
                 min-height: 51px;
+                margin-top: 8px;
             }
             .card__wrapper {
                 .card__price {
                     display: flex;
+                    margin-top: 8px;
                 }
             }
             .card__price_old {
@@ -185,8 +187,11 @@
             .blog-card__title {
                 line-height: 1.2;
             }
+            .blog-card__text {
+                line-height:  1.28;
+            }
             .blog-card__date {
-                line-height: 1.23;
+                line-height: 2.42;
             }
         }
         &-pagination {

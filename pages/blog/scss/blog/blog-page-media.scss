@@ -59,15 +59,8 @@
             }
         }
         &-sort {
-            &__wrap { 
-                width: max-content;
-            }
-            .blog-filters__btn {
-                width: auto;
-                justify-content: flex-start;
-            }
-            &.is-open {
-                right: auto;
+            &__wrap {
+                width: 200px;
             }
             &__option {
                 font-size: 14px;
